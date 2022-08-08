@@ -50,7 +50,7 @@ let mySimpleReduce = function(array, cb) {
 To refactor this problem to take in an optional initial accumulator:
    - The function `mySimpleReduce` should accept an array a callback and an accumulator as arguments;
      - If the acc wasn't passed in (if acc === undefined):
-         - set the first element of the array as the default accumulator.
+         - set the first element of the array as the accumulator.
          - iterate through the array starting from index 1
          - declare a variable to represent the current element (CurrEl = array[i])
          - set the acc to the result of the callback when passing in the current accumulator and current element
